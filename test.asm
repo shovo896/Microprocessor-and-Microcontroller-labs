@@ -1,0 +1,7 @@
+ORG 000H 
+SETB P1.0
+HERE: CLR P1.0
+      SETB P1.0
+      SJMP HERE
+END 
+     
