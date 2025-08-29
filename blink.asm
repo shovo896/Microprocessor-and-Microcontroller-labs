@@ -1,0 +1,6 @@
+    ORG 0000H 
+0000| SETB P1.0
+0002| HERE:CLR P1.0
+0004|      SETB P1.0
+0006|      SJMP HERE 
+      END
